@@ -1,0 +1,41 @@
+html {
+  background-color: rgb(33, 41, 27);
+  font-size: 16px;
+  color: white;
+}
+body {
+  max-width: 1300px;
+  margin: 0px auto;
+  background-color: black;
+}
+header, footer {
+  background-color: rgb(112, 8, 2);
+}
+.horizontalNav ul::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.horizontalNav {
+  justify-self: right;
+}
+.horizontalNav a {
+  text-decoration: none;
+  color: white;
+}
+.horizontalNav ul {
+  margin: 0px;
+  padding: 8px 0px;
+  list-style: none;
+}
+.horizontalNav ul li {
+  width: 100px;
+  padding: 0px;
+  float: right;
+  text-align: center;
+}
+p, h1, h2, h3, h4, h5, li {
+  margin: 0px;
+  padding: 0.4em;
+  line-height: .8em;
+}
