@@ -1,41 +1,57 @@
+/* HTML & Body */
 html {
-  background-color: rgb(33, 41, 27);
   font-size: 16px;
   color: white;
 }
 body {
-  max-width: 1300px;
   margin: 0px auto;
-  background-color: black;
+  background-color: darkolivegreen;
 }
+
+/* Header & Footer */
 header, footer {
-  background-color: rgb(112, 8, 2);
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(33, 41, 27);
 }
-.horizontalNav ul::after {
-  clear: both;
-  content: "";
-  display: block;
-}
-.horizontalNav {
-  justify-self: right;
-}
-.horizontalNav a {
-  text-decoration: none;
-  color: white;
-}
-.horizontalNav ul {
-  margin: 0px;
-  padding: 8px 0px;
-  list-style: none;
-}
-.horizontalNav ul li {
-  width: 100px;
-  padding: 0px;
-  float: right;
-  text-align: center;
-}
+header h1 {margin-right: auto;}
+
+/* Miscilanious */
 p, h1, h2, h3, h4, h5, li {
   margin: 0px;
   padding: 0.4em;
   line-height: .8em;
 }
+a {
+  color: white;
+}
+
+/* Horizontal Nav */
+.horizontalNav {
+  margin-top: auto;
+  margin-bottom: 0px;
+}
+.horizontalNav ul {
+  display: flex;
+  flex-flow: row wrap;
+  width: 280px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.horizontalNav ul li {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.horizontalNav a {text-decoration: none;}
+.horizontalNav a:hover {text-decoration: underline;}
+
+/* Horizontal List */
+.horizontalList {
+  width: 250px;
+  margin: 8px 8px;
+}
+.horizontalList:first-of-type {margin-left: auto;}
+.horizontalList:last-of-type {margin-right: auto;}
