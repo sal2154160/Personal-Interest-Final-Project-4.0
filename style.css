@@ -1,18 +1,19 @@
 /* HTML & Body */
 html {
   font-size: 16px;
-  color: white;
+  color: black;
 }
 body {
   margin: 0px auto;
-  background-color: darkolivegreen;
+  background-color: rgb(233, 245, 215);
 }
 
 /* Header & Footer */
 header, footer {
   display: flex;
   flex-flow: row wrap;
-  background-color: rgb(33, 41, 27);
+  color: white;
+  background-color: rgb(101, 126, 52);
 }
 header a {margin-right: auto; font-size: 1.3em;}
 header img {height: 120px;}
@@ -21,22 +22,22 @@ header img {height: 120px;}
 p, h1, h2, h3, h4, h5, li {
   margin: 0px;
   padding: 0.4em;
-  line-height: .8em;
+  line-height: 1em;
 }
-a {
-  color: white;
+p#center {
+  width: 70%;
+  margin: 0px auto;
 }
-h1, h2#sub, p {
-  text-align: center;
-}
-h2#sub {
-  padding-top: 0;
-}
+a {color: white;}
+h1, h2#sub, p {text-align: center;}
+h2#sub {padding-top: 0;}
+dt {font-size: 1.2em;}
 
 /* Horizontal Nav */
 .horizontalNav {
   margin-top: auto;
-  margin-bottom: 0px;
+  margin-right: 6px;
+  margin-bottom: 6px;
 }
 .horizontalNav ul {
   display: flex;
