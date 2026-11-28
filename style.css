@@ -16,7 +16,11 @@ header, footer {
   background-color: rgb(101, 126, 52);
 }
 header a {margin-right: auto; font-size: 1.3em;}
-header img {height: 120px;}
+header img {
+  height: 120px;
+  margin: 6px;
+  padding: 0px;
+}
 
 /* miscellaneous */
 p, h1, h2, h3, h4, h5, li {
