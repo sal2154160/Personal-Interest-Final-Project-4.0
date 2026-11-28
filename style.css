@@ -1,6 +1,6 @@
 /* HTML & Body */
 html {
-  font-size: 16px;
+  font-size: 18px;
   color: black;
 }
 body {
@@ -28,14 +28,28 @@ p, h1, h2, h3, h4, h5, li {
   padding: 0.4em;
   line-height: 1em;
 }
-p#center {
+section {
   width: 70%;
   margin: 0px auto;
 }
 a {color: white;}
 h1, h2#sub, p {text-align: center;}
+h1#sup {padding-bottom: 0;}
 h2#sub {padding-top: 0;}
 dt {font-size: 1.2em;}
+
+div.center {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.center img {
+  height: 300px;
+  margin-right: 60px;
+}
+.center h1 {text-align: left;}
+.center p {text-align: left;}
+.center div {margin-left: 20px;}
 
 /* Horizontal Nav */
 .horizontalNav {
@@ -46,7 +60,7 @@ dt {font-size: 1.2em;}
 .horizontalNav ul {
   display: flex;
   flex-flow: row wrap;
-  width: 280px;
+  width: 320px;
   margin-top: auto;
   margin-bottom: 0px;
   padding: 0px;
